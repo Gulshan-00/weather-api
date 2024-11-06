@@ -6,6 +6,7 @@ A simple weather application that allows users to check real-time weather inform
 - **Real-Time Weather Data**: Fetches current weather data using a reliable weather API.
 - **Search Functionality**: Search for any city worldwide to view its weather conditions.
 - **Simple, User-Friendly Interface**: Presents weather information in a clean, accessible design.
+- **Responsive also**: Only for the laptop and the mobile phone.
 
 ## Technologies Used
 - **React**: For building the user interface.

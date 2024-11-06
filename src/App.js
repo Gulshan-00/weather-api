@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import Assets from "./Assets/clouds.jpg";
 import sun_png from "./Assets/sun.png";
-import { API_KEY } from "./utils/Constants";
+// import { API_KEY } from "./utils/Constants";
+
 
 const App = () => {
   const [city, setCity] = useState("Mandi");
@@ -27,6 +28,9 @@ const App = () => {
   const month = months[currentDate.getMonth()];
   const date = currentDate.getDate();
   const year = currentDate.getFullYear();
+
+  const API_KEY=process.env.REACT_APP_API_KEY;
+  
 
   const fetchWeatherData = async () => {
     try {
